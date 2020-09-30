@@ -10,3 +10,5 @@ print(word[5::2])
 print(word[:7])
 print(word[::-1])
 print(word[-5])
+
+print(word[word.index("hello"):word.index('my')])
